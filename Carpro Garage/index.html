@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@300;400;500&family=Work+Sans:wght@200;300;400;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/ae49533a1c.js" crossorigin="anonymous"></script>
+    <title>CarPro Garage</title>
+</head>
+
+<body>
+    <header id="meu-header" class="header-container">
+        <nav class="nav-content">
+            <img data-aos="fade-right" data-aos-duration="3000" src="/logo2-removebg-preview.png" alt="">
+            <div class="tab-navigation" data-aos="fade-left" data-aos-duration="1000">
+                <ul>
+                    <a href="#inicio">Início</a>
+                    <a href="#manutencao">Manutenção</a>
+                    <a href="#performance">Performance</a>
+                    <a href="#contato">Contato</a>
+                    <i id="icons-h" class="fa-brands fa-whatsapp" style="color: #ededed;"></i>
+                    <i id="icons-h" class="fa-brands fa-youtube" style="color: #ededed;"></i>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-container" id="inicio">
+        <div class="bg-car">
+            <img src="./imgAll/pexels-jay-pizzle-6969032.jpg" alt="">
+            <div class="gradiente"></div>
+            <div class="main-content">
+                <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0"
+                    data-aos-easing="linear">Excelência Automotiva Além das Fronteiras.</h1>
+                <p data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0"
+                    data-aos-easing="linear">Realizamos serviços em motores, elétrica e eletrônica, transmissão, freios
+                    e suspensão, lubrificantes
+                    e fluídos, ar condicionado, pneus, baterias, alinhamento e balanceamento, preparação e muitos
+                    outros.</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="marcas-container" id="manutencao">
+        <h1>Marcas que trabalhamos</h1>
+        <div class="gridcard-container" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="400">
+            <div class="grid-item"><img src="./logomarca/audi-removebg-preview.png" alt=""></div>
+            <div class="grid-item"><img src="./logomarca/bmw-removebg-preview.png" alt=""></div>
+            <div class="grid-item"><img src="./logomarca/ferrari-removebg-preview.png" alt=""></div>
+            <div class="grid-item"><img src="./logomarca/porsche-removebg-preview.png" alt=""></div>
+            <div class="grid-item"><img src="./logomarca/mercedes-removebg-preview.png" alt=""></div>
+            <div class="grid-item"><img src="./logomarca/volvo-removebg-preview.png" alt=""></div>
+            <div class="grid-item"><img src="./logomarca/lamborghini-removebg-preview.png" alt=""></div>
+            <div class="grid-item"><img src="./logomarca/landrover-removebg-preview.png" alt=""></div>
+            <div class="grid-item"><img src="./logomarca/outras-removebg-preview.png" alt=""></div>
+        </div>
+    </section>
+
+    <section class="qualidades-container" id="performance">
+        <div class="grid-qualidades" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="400">
+
+            <div class="card-quali">
+                <i class="fa-solid fa-server"></i>
+                <h2>REPROGRAMAÇÃO DE MÓDULOS</h2>
+                <p>Também conhecido como chip de potência, reprogramação de ECU ou remapeamento de injeção,
+                    desenvolvemos soluções de aumento de potência e calibração de injeção eletrônica para módulos
+                    originais ou módulos programáveis.</p>
+                <a href="#">SAIBA MAIS</a>
+            </div>
+
+            <div class="card-quali">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h2>PEÇAS E UPGRADES</h2>
+                <p>Desenvolvemos, oferecemos e instalamos soluções completas de melhorias para todos os sistemas do
+                    veículo, incluindo turbos, superchargers, freios, suspensões, intercoolers, escapamentos e muito
+                    outros.</p>
+                <a href="#">SAIBA MAIS</a>
+            </div>
+
+            <div class="card-quali">
+                <i class="fa-solid fa-star"></i>
+                <h2>PROJETOS ESPECIAIS</h2>
+                <p>Know-how e expertise para o desenvolvimento de projetos totalmente exclusivos e especiais, incluindo
+                    a instalação e calibração de sistemas de injeção de Nitro (NO2), injeções de Água-Metanol,
+                    Conversões para Álcool, entre outros.</p>
+                <a href="#">SAIBA MAIS</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato" class="content-form" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="400">
+
+        <div class="container-form">
+
+            <form action="">
+                <h1>AGENDAMENTO OU ORÇAMENTO:</h1>
+
+                <label for="name">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="tel" name="tel" placeholder="(99 9999-9999)" required>
+
+                <label for="textAlfanumerico">Placa do Veículo</label>
+                <input type="text" id="placa" name="placa" placeholder="(ex: xxxxxxx)" required>
+
+                <label for="textAlfanumerico">Chassi do Veículo</label>
+                <input type="text" id="chassi" name="Chassi" placeholder="(17 caracteres)" required>
+
+                <label for="comoNosConheceu">Como nos conheceu?</label>
+                <select id="comoNosConheceu" name="comoNosConheceu">
+                    <option value="Pesquisa no Google">Pesquisa no Google</option>
+                    <option value="Redes Sociais">Redes Sociais</option>
+                    <option value="Recomendação de Amigo">Recomendação de Amigo</option>
+                    <option value="Outro">Outro</option>
+
+                    <label class="msg-area" for="mensagem">Mensagem</label>
+                    <textarea class="msg-area" id="mensagem" placeholder="Digite sua mensagem aqui..." name="mensagem"
+                        rows="5" cols="50"></textarea>
+
+                    <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+        <div class="container-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8443.640025954062!2d-46.53039725777544!3d-23.670966982436326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4260e2d5dea7%3A0x2b2d31c24b9dc181!2sShopping%20ABC!5e0!3m2!1spt-BR!2sbr!4v1697321352989!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Nosso Email: carpro.garage@hotmail.com</p>
+            <p>Telefone: 11 9999-9999</p>
+            <p>Whatsapp: 11 99999-9999</p>
+            <p>Endereço: Av. Pereira Barreto, 42 - Vila Gilda, Santo André - SP, 09190-210</p>
+            <p>Horários: 09:00 ás 18:00</p>
+        </div>
+    </section>
+
+    <footer class="content-footer">
+        <div class="container-footer">
+            <div class="logo-footer">
+                <img src="./logo2-removebg-preview.png" alt="">
+                <p>Sua Oficina de Carros Esportivos &copy; 2023</p>
+            </div>
+            <div class="bandeiras">
+                <img class="paypal" src="./imgAll/paypal (1).png" alt="">
+                <img class="master" src="./imgAll/card.png" alt="">
+                <img class="visa" src="./imgAll/visto.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

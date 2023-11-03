@@ -1,0 +1,64 @@
+.qualidades-container {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imgAll/pexels-jay-pizzle-6969035.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid-qualidades {
+    width: 86%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card-quali {
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 4px;
+
+    i {
+        font-size: 72px;
+        color: rgb(223, 223, 223);
+        margin-bottom: 26px;
+    }
+
+    h2 {
+        color: $color-font;
+        font-size: 22px;
+    }
+
+    p {
+        color: $color-font;
+        letter-spacing: 2px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        background-color: $secundary;
+        padding: 12px 38px;
+        border-radius: 4px;
+        color: $color-font;
+        margin: 22px;
+
+        &:hover {
+            background-color: $secundary;
+            transform: scale(1.1);
+            transition: .3s;
+        }
+    }
+}

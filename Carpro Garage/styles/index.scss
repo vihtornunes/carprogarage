@@ -1,0 +1,21 @@
+$bg-primary: #1b1b1b;
+$secundary: #004225;
+$bg-button: #648e96;
+$bg-hover: #5b7074;
+$color-font: #e9e8e8;
+
+@import './header';
+@import './main';
+@import './section-marcas';
+@import './section-qualidades';
+@import './section-form';
+@import './footer';
+
+
+*body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $bg-primary;
+    font-family: 'Work Sans', sans-serif;
+}

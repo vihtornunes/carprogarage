@@ -1,0 +1,42 @@
+.content-footer {
+    max-width: 100%;
+    height: 220px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin-top: 80px;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    img {
+        width: 360px;
+    }
+
+    p {
+        color: $color-font;
+        font-size: 18px;
+    }
+}
+
+.bandeiras {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 14px;
+
+    img {
+        width: 60px;
+    }
+}
+

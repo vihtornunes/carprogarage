@@ -1,0 +1,44 @@
+			--- CARPRO GARAGE ---
+
+cores:
+background: #1b1b1b
+sub-fundo: #6dadb9
+fundo-botao: #648e96
+fundo-hover: #5b7074
+color-font: #525252
+
+home:
+logo
+Início
+Manutenção
+Perfomance
+Contato (whatsapp e telefone fixo)
+
+main: 
+três imagens em slide
+frase slogan: "Excelência Automotiva Além das Fronteiras"
+sub-frase: "Realizamos serviços em motores, elétrica e eletrônica, transmissão, freios e suspensão, lubrificantes e fluídos, ar condicionado, pneus, baterias, alinhamento e balanceamento, preparação e muitos outros."
+
+section-marcas:
+Marcas que trabalhamos:
+logo de cada marca em uma grid section. e será clicavel e levara para a outra página que terá especificação sobre revisão geral, preço, e serviços realizados.
+
+section-nossas qualidades e ferramentas(com icones):
+(scanners, novas tecnologias, profissionais experiêntes, qualidade de peças.)
+
+section-agendamento ou orçamento:
+Nome
+Email
+Telefone
+Placa do Veículo
+Chassi do veículo (17caracteres)
+Como nos conheceu:
+Caixa de menssagem (Mensagem)
+
+contato:
+mapa da onde estamos localizados.
+whatsapp e telefone fixo.
+endereço.
+horários
+
+footer:

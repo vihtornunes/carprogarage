@@ -1,0 +1,60 @@
+.main-container {
+    max-width: 100%;
+    height: 100vh;
+}
+
+.bg-car {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .gradiente {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    } 
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    height: 300px;
+
+    h1 {
+        display: flex;
+        font-size: 46px;
+        color: $secundary;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    p {
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: $color-font;
+        width: 60%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0 auto;
+        padding-left: 12px;
+    }
+}
